@@ -9,7 +9,7 @@ const Home = () => {
     const [mode, setmode] = useState('blue');
     const [alert, setAlert] = useState(null);
 
-    // alert hello
+    // alert
     const showAlert = (message, type) => {
         setAlert(
             {
