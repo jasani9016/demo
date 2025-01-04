@@ -9,7 +9,7 @@ const Home = () => {
     const [mode, setmode] = useState('blue');
     const [alert, setAlert] = useState(null);
 
-    // alert
+    // alert hello
     const showAlert = (message, type) => {
         setAlert(
             {
@@ -21,7 +21,7 @@ const Home = () => {
             setAlert(null);
         }, 1500);
     }
-    // light to dark togglemode
+    // light to dark 
     const toggleMode = () => {
         if (mode === 'light') {
             setmode('blue');
